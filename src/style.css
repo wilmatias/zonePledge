@@ -1,0 +1,111 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.van-nav-bar__left, .van-nav-bar__right {
+    padding: 0px !important;
+}
+
+.van-nav-bar__content {
+    height: 100% !important;
+}
+
+.van-tabs__nav--line {
+    border-radius: 0.75rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 0; /* Hides the scrollbar */
+}
+
+.swipe-notification .van-swipe {
+    height: 60px !important;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.3s;
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+.bg-\[url\(\'\/src\/assets\/images\/asset\/bg\.f53cae21\.png\'\)\] {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.van-tabs__nav--card {
+    margin: unset !important;
+    height: 40px !important;
+}
+
+.van-tabs--card>.van-tabs__wrap {
+    height: 40px !important;
+}
+
+.van-step__title--active {
+    color: #323232 !important;
+}
+
+.van-cell-group--inset {
+    margin: unset !important;
+}
+
+.van-uploader__upload {
+    width: 100% !important;
+    border-radius: 8px !important;
+    background: #f3f3f3 !important;
+}
+
+.van-uploader__preview {
+    margin: auto;
+}
+
+.van-field {
+    margin: unset !important;
+}
+
+.custom-toast .van-icon {
+    font-size: 40px !important;
+}
+
+.van-dropdown-menu__bar {
+    background: unset !important;
+    box-shadow: unset !important;
+    height: unset !important;
+}
+
+.van-dropdown-menu__title {
+    font-size: unset !important;
+    padding: unset !important;
+    padding-right: 5px !important;
+}
+
+.van-notice-bar {
+    height: 1rem !important;
+    padding: unset !important;
+    color: white !important;
+    font-size: .8rem !important;
+    background: unset !important;
+}
+
+.van-toast {
+    color: #e4e6eb !important;
+    background: #282828 !important;
+    min-width: 200px;
+    border: 2px solid #e4e6eb!important;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.van-field__control {
+    color: #e4e6eb !important;
+}
+
+.van-uploader__upload {
+    margin: unset !important;
+    background: #212227 !important  ;
+}
